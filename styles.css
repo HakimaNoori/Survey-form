@@ -1,0 +1,36 @@
+body {
+    background-color: lightgreen;
+    text-align: cover;
+  }
+  h1, p {
+    text-align: center;
+  }
+  form {
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ff5eee
+  }
+  input {
+    padding: 5px;
+    border: none;
+    border-radius:5px;
+  }
+  .input-element {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  select {
+    padding: 5px;
+    border: none;
+    border-radius:5px;
+  }
+  input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+  }
+  

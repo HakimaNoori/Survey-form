@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" >
+    <div class="input-element">
+    <label id="name-label" >Name</label>
+    <input placeholder="name" id="name"type="text" required/>
+    </div>
+    
+    <div class="input-element">
+    <label id="email-label" for="email">Email</label>
+    <input placeholder="email" id="email"type="email" required/>
+    </div>
+    
+    
+    <div class="input-element">
+    <label id="number-label">Age</label>
+    <input placeholder="age" id="number" min="5" max="100" type="number" required/>
+    </div>
+    
+    <div class="input-element">
+    <label id="select-label">Which option best describes your current role?</label>
+    <select id="dropdown">
+    <option disabled selected value> Select current role</option>
+    <option> Student</option>
+    <option> Full Time Job</option>
+    <option> Full Time Learer</option>
+    <option> not to sayPrefe</option>
+    <option> Other</option>
+    </select>
+    </div>
+    <div>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+    </div>
+    <div>
+        <label>
+            <input type="radio"  name="freeCodeCamp" value="definitely"/> Definitely
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="radio" name="freeCodeCamp" value="maybe"/> Maybe
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="radio" name="freeCodeCamp"value="sure"/> Not sure
+    
+        </label>
+    </div>
+    <div>
+        <label>
+        What is your favorite feature of freeCodeCamp?
+        </babel>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox"  name="freeCodeCamp" value="front-endprojects"/> Front-end Projects
+    
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox"  name="freeCodeCamp"
+    value="back-endprojects"/> Back-end Projects
+    
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="freeCodeCamp"
+    value="datavisualizatio"/> Data Visualization
+    
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox"  name="freeCodeCamp" value="challegnges"/> Challegnges
+    
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox"  name="freeCodeCamp" value="citymeetups"/> City Meetups
+    
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="freeCodeCamp" value="gitterhelprooms"/> Gitter help rooms
+    
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="freeCodeCamp" value="videos"/> Videos
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="freeCodeCamp" value="wiki"/> Wiki
+    
+        </label>
+    </div>
+      </div>
+      <div>
+        <label>
+            <input type="checkbox" name="freeCodeCamp" value="forum"/> Forum
+    
+        </label>
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="freeCodeCamp" value="additionalcourses" /> Additional Courses
+    
+        </label>
+    </div>
+    <div class="input-element">
+        <label>Any comments or suggestions?</label>
+    
+        <textarea type="text" ></textarea>
+    </div>
+    <div class="input-element">
+        <button type="submit" id="submit" class="submit-button"> Submit</button> 
+    </div>
+    </form>
+    </div>
+    </body>
+    </html>
